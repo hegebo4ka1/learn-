@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: gold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-details {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  width: 240px;
+  height: 240px;
+  border: 1px solid black;
+}
